@@ -1,0 +1,19 @@
+BoxLayout:
+    orientation: "vertical"
+
+    TextInput:
+        id: time_input
+        hint_text: "Enter time in minutes"
+        size_hint_y: 0.3
+        input_filter: "int"
+
+    BoxLayout:
+        orientation: "vertical"
+
+        Button:
+            text: "Start"
+            on_press: app.start_timer()
+
+        Button:
+            text: "Stop"
+            on_press: app.stop_timer()

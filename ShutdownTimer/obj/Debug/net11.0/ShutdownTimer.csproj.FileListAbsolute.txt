@@ -1,0 +1,16 @@
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\bin\Debug\net11.0\ShutdownTimer.exe
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\bin\Debug\net11.0\ShutdownTimer.deps.json
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\bin\Debug\net11.0\ShutdownTimer.runtimeconfig.json
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\bin\Debug\net11.0\ShutdownTimer.runtimeconfig.dev.json
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\bin\Debug\net11.0\ShutdownTimer.dll
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\bin\Debug\net11.0\ShutdownTimer.pdb
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.AssemblyInfoInputs.cache
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.AssemblyInfo.cs
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.csproj.CoreCompileInputs.cache
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.dll
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\refint\ShutdownTimer.dll
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.pdb
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ShutdownTimer.genruntimeconfig.cache
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\ref\ShutdownTimer.dll
+c:\Users\etwas\Documents\GitHub\cpp shutodownTimer\ShutdownTimer\obj\Debug\net11.0\Shutdown.795F5F9D.Up2Date
