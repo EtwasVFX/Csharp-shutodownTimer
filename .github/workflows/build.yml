@@ -1,0 +1,46 @@
+
+name: Build Windows EXE
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Download project
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '11.0.x'
+
+      - name: Install libraries
+        run: pip install kivy pyinstaller
+
+      - name: Build C#
+        run: dotnet publish ShutdownTimer/ShutdownTimer.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ShutdownTimer/publish
+
+      - name: Build Python
+        run: pyinstaller --noconfirm --onefile --windowed --add-data "main.kv;." main.py
+
+      - name: Package
+        run: |
+          mkdir dist/ShutdownTimer
+          copy dist/main.exe dist/ShutdownTimer/
+          xcopy ShutdownTimer/publish dist/ShutdownTimer/ShutdownTimer /E /I /Y
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: ShutdownTimer-Windows
+          path: dist/ShutdownTimer
